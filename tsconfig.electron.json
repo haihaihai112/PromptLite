@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "NodeNext", "moduleResolution": "NodeNext",
+    "strict": true, "skipLibCheck": true, "outDir": "dist-electron", "rootDir": ".", "rewriteRelativeImportExtensions": true,
+    "types": ["node"], "lib": ["ES2022", "DOM", "DOM.Iterable"]
+  },
+  "include": ["electron/**/*.ts", "src/shared/**/*.ts", "src/core/**/*.ts"],
+  "exclude": ["electron/preload.cjs"]
+}
