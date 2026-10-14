@@ -2,9 +2,15 @@
 
 haihaihai112 的个人文本提示词工作台，面向 Windows 10/11 x64。
 
+[下载最新版本](https://github.com/haihaihai112/PromptLite/releases/latest) · [验证记录](docs/verification.md)
+
+![PromptLite 工作台](docs/images/workbench.png)
+
+界面截图使用本地测试服务演示工作流程；实际内容由你配置的模型生成。
+
 ## 开始使用
 
-下载 Windows 压缩包，解压完整目录，双击 `PromptLite.exe`。请保留同目录的运行库和 `resources` 文件夹。
+在 [Releases](https://github.com/haihaihai112/PromptLite/releases) 下载 `PromptLite-1.0.0-win-x64.zip`，解压完整目录，双击 `PromptLite.exe`。请保留同目录的运行库和 `resources` 文件夹。
 
 第一次打开，点击 **模型设置 → 添加模型**，填写连接名称、接口地址、模型 ID 和 API 密钥。保存后可以测试连接，再返回工作台。
 
