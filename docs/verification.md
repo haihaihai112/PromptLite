@@ -6,8 +6,8 @@
 
 - `npm test`：36 项通过，0 项失败。
 - `npm run typecheck`：Vue 与 Electron TypeScript 检查通过。
-- 生产构建成功生成界面资源、主进程模块和 preload。
-- Windows x64 打包成功；可执行文件的产品名、作者和版本分别为 PromptLite、haihaihai112、1.0.0。
+- `npm run package` 完整通过，包含生产构建和 Windows x64 打包；成功生成界面资源、主进程模块和 preload。
+- 可执行文件的产品名、作者和版本分别为 PromptLite、haihaihai112、1.0.0。
 - ASAR 清单检查：包含编译后的应用、图标、说明与许可证；不含开发依赖、原始源码或测试数据。
 - 代码复查确认：地址变更不会继承旧密钥，截断或过滤响应不会计为完成，删除活动历史后不会因迭代而恢复该记录。
 
